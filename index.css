@@ -22,6 +22,11 @@ body {
     font-family: 'Sometype Mono', 'Merriweather', 'Montserrat', 'Sacramento', serif, sans-serif, cursive, monospace;
     margin-left: 10px;
   }
+
+  .title-h1 {
+    margin: 5px;
+    margin-left: 0px;
+  }
   
   /* Container Styles */
   .table-container {
@@ -55,6 +60,20 @@ body {
   button:hover {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     color: #000;
+  }
+
+  .toggle-icon {
+    /* Define the default styles for the icon */
+    font-size: 24px; /* Adjust the size as needed */
+    color: #333;   /* Default color */
+    transition: color 0.3s; /* Add a smooth transition for color change */
+  
+    /* Add styles for the icon on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+  
+  .toggle-icon:hover {
+    color: #3B503D; /* Change the color to a different one when hovered */
   }
   
   /* Category Styles */
@@ -152,10 +171,9 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
     display: block;
     transition: 0.3s;
-    color: #fff;
+    color: #000;
   }
   
   .side-navigation a:hover {
@@ -173,6 +191,15 @@ body {
     cursor: pointer;
   }
   
+  .nav-heading {
+    font-weight: bold;
+  }
+
+  .nav-hr {
+    width: 40%; 
+    margin-left: 30px;
+    border: 1px solid #263A29;
+  }
   
   
   /* Collapsible Content Styles */
