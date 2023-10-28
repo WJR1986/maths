@@ -1,0 +1,168 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Simplify 5x - 3x + 2x - 4x.",
+            "options": ["x", "3x", "4x", "5x"],
+            "correctAnswerIndex": 0,
+            "image": "img/subject-button1.png",
+            "correctAnswerDescription": "Combine like terms: 5x - 3x + 2x - 4x = x. This relates to algebra and simplifying expressions.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 2,
+            "question": "What is the square root of 144?",
+            "options": ["12", "13", "10", "14"],
+            "image": "img/subject-button1.png",
+            "correctAnswerIndex": 0,
+            "correctAnswerDescription": "The square root of 144 is 12 (12 * 12 = 144). This relates to basic arithmetic and square roots.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 3,
+            "question": "Solve for x: 2x + 3 = 11.",
+            "options": ["x = 2", "x = 4", "x = 6", "x = 5"],
+            "correctAnswerIndex": 1,
+            "correctAnswerDescription": "Isolate 2x by subtracting 3 from both sides, then divide by 2 to find x. x = 4. This relates to solving linear equations.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 4,
+            "question": "What is 3/4 as a decimal?",
+            "options": ["0.25", "0.5", "0.75", "0.8"],
+            "image": "img/subject-button1.png",
+            "correctAnswerIndex": 2,
+            "correctAnswerDescription": "To express a fraction as a decimal, divide the numerator by the denominator. 3 ÷ 4 = 0.75. This relates to fractions and decimals.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 5,
+            "question": "Simplify: 3a - (2a - 4).",
+            "options": ["a + 4", "a - 4", "a + 2", "a - 2"],
+            "image": "img/subject-button1.png",
+            "correctAnswerIndex": 3,
+            "correctAnswerDescription": "Remove parentheses and combine like terms: 3a - 2a + 4 = a - 2. This relates to algebra and simplifying expressions.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 6,
+            "question": "What is the value of 2^4?",
+            "options": ["8", "16", "32", "64"],
+            "correctAnswerIndex": 1,
+            "correctAnswerDescription": "2^4 means 2 multiplied by itself 4 times: 2 * 2 * 2 * 2 = 16. This relates to exponentiation.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 7,
+            "question": "Calculate the area of a rectangle with length 6 cm and width 8 cm.",
+            "options": ["24 sq cm", "30 sq cm", "48 sq cm", "54 sq cm"],
+            "correctAnswerIndex": 0,
+            "correctAnswerDescription": "The area of a rectangle is length times width: Area = 6 cm * 8 cm = 48 sq cm. This relates to geometry.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 8,
+            "question": "Solve for y: 2y - 5 = 7.",
+            "options": ["y = 6", "y = 7", "y = 5", "y = 8"],
+            "correctAnswerIndex": 0,
+            "correctAnswerDescription": "Isolate 2y by adding 5 to both sides, then divide by 2 to find y. y = 6. This relates to solving linear equations.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 9,
+            "question": "What is 15% of 80?",
+            "options": ["8", "10", "12", "15"],
+            "correctAnswerIndex": 2,
+            "correctAnswerDescription": "To find a percentage, multiply the percentage (15%) by the number (80) and divide by 100: 15% of 80 = (15/100) * 80 = 12. This relates to percentages.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 10,
+            "question": "Simplify: 4b - (2b + 3).",
+            "options": ["2b - 3", "2b + 3", "2b - 1", "2b + 1"],
+            "correctAnswerIndex": 0,
+            "correctAnswerDescription": "Remove parentheses and combine like terms: 4b - 2b - 3 = 2b - 3. This relates to algebra and simplifying expressions.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 11,
+            "question": "Find the value of x in the equation 3x - 6 = 12.",
+            "options": ["x = 6", "x = 8", "x = 10", "x = 9"],
+            "correctAnswerIndex": 2,
+            "correctAnswerDescription": "Isolate 3x by adding 6 to both sides, then divide by 3 to find x: x = 18 / 3 = 10. This relates to solving linear equations.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 12,
+            "question": "What is the product of 7 and 9?",
+            "options": ["63", "56", "49", "72"],
+            "correctAnswerIndex": 0,
+            "correctAnswerDescription": "To find the product, multiply the numbers: 7 * 9 = 63. This relates to multiplication.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 13,
+            "question": "Simplify: 2x - 4x + 3x + 6x.",
+            "options": ["5x", "7x", "11x", "15x"],
+            "correctAnswerIndex": 1,
+            "correctAnswerDescription": "Combine like terms: 2x - 4x + 3x + 6x = 7x. This relates to algebra and simplifying expressions.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 14,
+            "question": "What is the square root of 81?",
+            "options": ["8", "9", "7", "6"],
+            "correctAnswerIndex": 1,
+            "correctAnswerDescription": "The square root of 81 is 9 (9 * 9 = 81). This relates to basic arithmetic and square roots.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 15,
+            "question": "Solve for y: 5y + 2 = 27.",
+            "options": ["y = 3", "y = 5", "y = 6", "y = 7"],
+            "correctAnswerIndex": 3,
+            "correctAnswerDescription": "Isolate 5y by subtracting 2 from both sides, then divide by 5 to find y: y = 25 / 5 = 5. This relates to solving linear equations.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 16,
+            "question": "What is 2/5 as a decimal?",
+            "options": ["0.2", "0.4", "0.5", "0.6"],
+            "correctAnswerIndex": 0,
+            "correctAnswerDescription": "To express a fraction as a decimal, divide the numerator by the denominator: 2 ÷ 5 = 0.4. This relates to fractions and decimals.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 17,
+            "question": "Calculate the area of a square with a side length of 5 cm.",
+            "options": ["20 sq cm", "15 sq cm", "25 sq cm", "10 sq cm"],
+            "correctAnswerIndex": 2,
+            "correctAnswerDescription": "The area of a square is the side length squared: Area = 5 cm * 5 cm = 25 sq cm. This relates to geometry.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 18,
+            "question": "Solve for x: 3x - 7 = 11.",
+            "options": ["x = 6", "x = 4", "x = 7", "x = 5"],
+            "correctAnswerIndex": 0,
+            "correctAnswerDescription": "Isolate 3x by adding 7 to both sides, then divide by 3 to find x: x = 18 / 3 = 6. This relates to solving linear equations.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 19,
+            "question": "What is 20% of 50?",
+            "options": ["10", "15", "20", "25"],
+            "correctAnswerIndex": 3,
+            "correctAnswerDescription": "To find a percentage, multiply the percentage (20%) by the number (50) and divide by 100: 20% of 50 = (20/100) * 50 = 10. This relates to percentages.",
+            "working": "Show your working here:"
+        },
+        {
+            "id": 20,
+            "question": "Simplify: 5a - (2a - 3).",
+            "options": ["3a - 3", "3a + 3", "3a - 2", "3a + 2"],
+            "correctAnswerIndex": 1,
+            "correctAnswerDescription": "Remove parentheses and combine like terms: 5a - 2a + 3 = 3a + 3. This relates to algebra and simplifying expressions.",
+            "working": "Show your working here:"
+        }
+    ]
+}
