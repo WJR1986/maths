@@ -1,0 +1,214 @@
+body {
+    background-image: url(img/wallpaper-greentint.png);
+    font-family: 'Sometype Mono', 'Merriweather', 'Montserrat', 'Sacramento', serif, sans-serif, cursive, monospace;
+    text-align: left;
+    overflow-y: scroll;
+    font-size: 16px; /* Increase font size for readability on smaller screens */
+  }
+  
+  .no-border {
+    border: 0px;
+  }
+  
+  .links {
+    max-width: 25%;
+  }
+  
+  a:hover {
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-family: 'Sometype Mono', 'Merriweather', 'Montserrat', 'Sacramento', serif, sans-serif, cursive, monospace;
+    margin-left: 10px;
+  }
+  
+  /* Container Styles */
+  .table-container {
+    text-align: left;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    width: 80%;
+    max-width: none; /* Remove the max-width restriction */
+  }
+  
+  /* Button Styles */
+  button {
+    color: #263A29;
+    padding: 2px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #263A29;
+    font-family: 'Sometype Mono', 'Merriweather', 'Montserrat', 'Sacramento', serif, sans-serif, cursive, monospace;
+  }
+  
+  button.number-button {
+    background-color: #A4BC92;
+  }
+  
+  button:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    color: #000;
+  }
+  
+  /* Category Styles */
+  .category.heading {
+    font-size: 1.3em;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 10px;
+    flex: 1;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .number-h3-colour {
+    background-color: #A4BC92;
+  }
+  
+  .algebra-h3-colour {
+    background-color: lightblue;
+  }
+  
+  .table-container h3 {
+    cursor: pointer;
+  }
+  
+  .title-container {
+    background-color: #A4BC92;
+  }
+  
+  .title-container h5 {
+    margin: 0px;
+  }
+  
+  /* Navigation Button Styles */
+  .nav-button {
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    padding: 5px;
+    z-index: 1;
+    background-color: #A4BC92;
+    border: none;
+    color: #000;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+  }
+  
+  /* Adjust the styles for small screens */
+  @media screen and (max-width: 600px) {
+    .nav-button {
+      top: 5px; /* Reset the top position for small screens */
+      bottom: auto; /* Adjust the bottom position as needed */
+      right: 15px; /* Adjust the right position as needed */
+      max-width: 100px; /* Adjust the max width as needed */
+      text-align: center; /* Center the text in the button */
+    }
+  }
+  @media screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+    .nav-button {
+      top: 10px; /* Reset the top position for small screens */
+      bottom: auto; /* Adjust the bottom position as needed */
+      right: 70px; /* Adjust the right position as needed */
+      max-width: 100px; /* Adjust the max width as needed */
+      text-align: center; /* Center the text in the button */
+    }
+  }
+  @media screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+    .nav-button {
+      top: 10px; /* Reset the top position for small screens */
+      bottom: auto; /* Adjust the bottom position as needed */
+      right: 100px; /* Adjust the right position as needed */
+      max-width: 100px; /* Adjust the max width as needed */
+      text-align: center; /* Center the text in the button */
+    }
+  }
+  
+  
+  /* Side Navigation Styles */
+  .side-navigation {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #A4BC92;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: left; /* Set text-align to left */
+  }
+  
+  .side-navigation a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: #fff;
+  }
+  
+  .side-navigation a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Close Button Styles */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* Collapsible Content Styles */
+  .collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease; /* Adjust the duration as needed */
+  }
+  
+  .collapsible-content.open {
+    max-height: 1000px; /* Adjust the value to be larger than your content's height */
+  }
+  
+  /* Back to Top Button Styles */
+  .back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    background-color: #A4BC92;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .back-to-top.show {
+    display: block;
+  }
+  
+  /* Show the button when the user scrolls down 100px from the top of the document */
+  @media screen and (min-width: 601px) {
+    #backToTopButton.show {
+      display: block;
+    }
+  }

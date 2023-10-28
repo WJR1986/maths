@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GCSE Math Test</title>
+    <link rel="stylesheet" href="testPage.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Sometype+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Include Font Awesome CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  />
+  <script
+    src="https://kit.fontawesome.com/17e7e77638.js"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+  <body>
+    
+    <!--ENTER NAME SECTION-->
+    <div id="test-container">
+      <h1 id="test-title" class="centered">GCSE Math Test</h1>
+      <p id="name-instructions"><em>Please enter your name.</em></p>
+      <div id="user-name-display" style="display: none"></div>
+      <div id="subject-heading-display" style="display: none"></div>
+      <div id="name-input-container" class="name-input-style">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required />
+        <button id="start-button">Start Test</button>
+      </div>
+      <div id="name-validation-message" class="validation-message">Please enter your name.</div>
+      <!-- <hr class="test-container-hr"> -->
+      <div id="start-container">
+        <div id="sub-subject-buttons-container">
+        <!-- Add sub-subject buttons here -->
+        <!-- <button class="sub-subject-button" data-json="numbers.json">Numbers</button>
+        <button class="sub-subject-button" data-json="multiplesFactorsPrimeFactors.json">Multiples, Factors & Prime Factors</button>
+        <button class="sub-subject-button" data-json="fractionsDecimalsPercentages.json">Fractions, Decimals & Percentages</button> -->
+        <!-- Add buttons for other sub-subjects if needed -->
+      </div>
+        <!-- <button id="start-button">Begin Test</button> -->
+        
+      </div>
+      
+      <div id="restart-test-container" style="display: none">
+        <button id="restart-test-button">Restart Test</button>
+      </div>
+      
+      <div class="questions">
+      <div id="question-container">
+        <div id="user-name" style="display: none"></div>
+        <!-- Questions go here  -->
+      </div>
+      <div id="submit-answer-container">
+        <button id="submit-answer-button" style="display: none">
+          Submit Answer
+        </button>
+        <p id="answer-validation-message" class="validation-message">
+          Please select an answer before submitting.
+        </p>
+      </div>
+    </div>
+      <button id="submit-results-button" style="display: none">
+        Submit Results
+      </button>
+    </div>
+
+    <!--FORM-->
+    <div id="custom-submission-page" class="custom-submission-container" style="display: none;">
+      <!-- CSustom submission content goes here -->
+      <h2>Your Test has been Submitted.</h2>
+      <p><em>You will be redirected home automatically.</em></p>
+      <!-- Additional content or messages I want to display can go here -->
+    </div>
+    <div id="quiz-form-container" style="display: none">
+      <div id="score-container" style="display: none">
+        <p>Your Score: <span id="user-score">0</span></p>
+      </div>
+
+      <div id="score-and-form-container">
+        <form
+        id="quiz-form"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSdIS5fZR5cfkJPsUDvlzEuppdNHRNkVlmWOUMELdimpphRJeg/formResponse"
+        method="post"
+        target="hiddenConfirm"
+        onsubmit="submitted=true"
+      >
+          <label for="entry.1381110635">Name:</label> <br />
+          <input
+            type="text"
+            id="name-form"
+            name="entry.1381110635"
+            required
+            readonly
+          />
+
+          <label for="entry.992086438">Question 1</label> <br />
+          <textarea
+            id="question1"
+            name="entry.992086438"
+            required
+            readonly
+            class="auto-expand-textarea left-aligned-textarea"
+          ></textarea>
+          <br />
+          <label for="entry.1155486169">Question 2</label> <br />
+          <textarea
+            id="question2"
+            name="entry.1155486169"
+            required
+            readonly
+            class="auto-expand-textarea left-aligned-textarea"
+          ></textarea>
+          <br />
+          <label for="entry.485337471">Question 3</label> <br />
+          <textarea
+            id="question3"
+            name="entry.485337471"
+            required
+            readonly
+            class="auto-expand-textarea left-aligned-textarea"
+          ></textarea>
+          <br />
+          <label for="entry.1728811428">Question 4</label> <br />
+          <textarea
+            id="question4"
+            name="entry.1728811428"
+            required
+            readonly
+            class="auto-expand-textarea left-aligned-textarea"
+          ></textarea>
+          <br />
+          <label for="entry.1316939812">Question 5</label> <br />
+          <textarea
+            id="question5"
+            name="entry.1316939812"
+            required
+            readonly
+            class="auto-expand-textarea left-aligned-textarea"
+          ></textarea>
+          <br />
+          <label for="entry.494908456">Question 6</label> <br />
+          <textarea
+            id="question6"
+            name="entry.494908456"
+            required
+            readonly
+            class="auto-expand-textarea left-aligned-textarea"
+          ></textarea>
+          <br />
+          <label for="entry.68232144">Question 7</label> <br />
+          <textarea
+            id="question7"
+            name="entry.68232144"
+            required
+            readonly
+            class="auto-expand-textarea left-aligned-textarea"
+          ></textarea>
+          <br />
+          <label for="entry.1491549142">Question 8</label> <br />
+          <textarea
+            id="question8"
+            name="entry.1491549142"
+            required
+            readonly
+            class="auto-expand-textarea left-aligned-textarea"
+          ></textarea>
+          <br />
+          <label for="entry.1328240670">Question 9</label> <br />
+          <textarea
+            id="question9"
+            name="entry.1328240670"
+            required
+            readonly
+            class="auto-expand-textarea left-aligned-textarea"
+          ></textarea>
+          <br />
+          <label for="entry.1389475867">Question 10</label> <br />
+          <textarea
+            id="question10"
+            name="entry.1389475867"
+            required
+            readonly
+            class="auto-expand-textarea left-aligned-textarea"
+          ></textarea>
+          <br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <iframe
+  frameborder="0"
+  name="hiddenConfirm"
+  id="hiddenConfirm"
+  style="display: none"
+></iframe>
+    </div>
+    <div id="score-container" style="display: none">
+      <p>Your Score: <span id="user-score">0</span></p>
+    </div>
+
+    <div id="submission-confirmation" style="display: none">
+      <p>Your form has been submitted. Thank you!</p>
+    </div>
+    
+    <!-- <button id="return-home-button" style="display: none" onclick="returnHome()">Return to Home</button> -->
+
+    <button id="take-another-test-button" style="display: none">
+      Take Another Test
+    </button>
+    <button id="download-results-button" style="display: none">
+      Download Results
+    </button>
+
+    <script src="testPage.js"></script>
+  </body>
+</html>
